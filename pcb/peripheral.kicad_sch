@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "64b3e08a-561c-48b1-9c6c-ae3e00066548")
+	(paper "A4")
+	(title_block
+		(title "Marten 22 Peripheral Template")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

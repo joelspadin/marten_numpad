@@ -1,0 +1,21 @@
+(version 1)
+
+(rule "Ignore same footprint clearance"
+	(constraint hole_clearance (min 0.25mm))
+	(condition "A.Parent == B.Parent")
+	(severity exclusion))
+
+(rule "Ignore overlapping drills"
+	(constraint hole_to_hole (min 0.25mm))
+	(condition "A.Pad_Type == 'NPTH,mechanical' || B.Pad_Type == 'NPTH, mechanical'")
+	(severity exclusion))
+
+(rule "Ignore overlapping drill clearance"
+	(constraint hole_clearance (min 0.25mm))
+	(condition "A.Pad_Type == 'NPTH,mechanical' || B.Pad_Type == 'NPTH, mechanical'")
+	(severity exclusion))
+
+(rule "Ignore hole slot clearance"
+	(constraint edge_clearance (min 0.25mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(severity exclusion))

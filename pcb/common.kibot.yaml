@@ -1,0 +1,67 @@
+kibot:
+  version: 1
+
+preflight:
+  check_zone_fills: true
+
+global:
+  out_dir: out/%f
+  # solder_mask_color: black
+
+filters:
+  - name: dnp
+    comment: Do not place
+    type: generic
+    exclude_any:
+      - column: Type
+        regex: DNP
+
+import:
+  - file: JLCPCB
+  - file: PCBWay
+  - file: Elecrow
+  # - file: PCB2Blender_2_1
+
+outputs:
+  - name: schematic
+    type: pdf_sch_print
+
+  - name: draw_top
+    type: pcbdraw
+    options:
+      format: png
+      dpi: 1200
+      style:
+        board: "#193626"
+
+  - name: draw_bottom
+    type: pcbdraw
+    extends: draw_top
+    options:
+      bottom: true
+
+  - name: BOM
+    type: bom
+    options:
+      columns:
+        - Row
+        - Description
+        - Value
+        - References
+        - Quantity Per PCB
+        - Package
+        - Manufacturer
+        - Manufacturer Part Number
+        - Datasheet
+      group_fields:
+        - Description
+        - Value
+      sort_style: ref
+
+  - name: Position
+    type: position
+    options:
+      format: ASCII
+      separate_files_for_front_and_back: false
+      units: millimeters
+      dnf_filter: dnp

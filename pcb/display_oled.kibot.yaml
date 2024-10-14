@@ -1,0 +1,12 @@
+kibot:
+  version: 1
+
+import:
+  - file: common.kibot.yaml
+
+outputs:
+  - name: step
+    type: step
+    options:
+      subst_models: true
+      origin: grid
