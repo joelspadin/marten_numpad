@@ -1410,7 +1410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "keyboard:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 121.92 55.88 0)
 			(effects
 				(font
