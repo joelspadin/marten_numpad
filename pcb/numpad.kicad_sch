@@ -6056,7 +6056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 212.09 63.5 0)
 			(effects
 				(font
@@ -6074,7 +6074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603GRNPO9BN120"
+		(property "Manufacturer Part Number" "CC0402GRNPO9BN120"
 			(at 212.09 63.5 0)
 			(effects
 				(font
@@ -6643,8 +6643,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MDBT50Q-1MV2"
-			(at 176.1841 142.5743 0)
+		(property "Value" "MDBT50Q-P1MV2"
+			(at 176.1841 142.5744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "MDBT50Q-1MV2"
+		(property "Manufacturer Part Number" "MDBT50Q-P1MV2"
 			(at 173.99 95.25 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 212.09 58.42 0)
 			(effects
 				(font
@@ -7698,7 +7698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603GRNPO9BN120"
+		(property "Manufacturer Part Number" "CC0402GRNPO9BN120"
 			(at 212.09 58.42 0)
 			(effects
 				(font
