@@ -6,7 +6,7 @@ You may redistribute and modify this documentation and make products using it un
 
 ## Third-Party Licenses
 
-Portions of this project are based on the following:
+The custom symbols and footprints in this project are based on the KiCad libraries with the following license:
 
 ### KiCad Libraries License
 
