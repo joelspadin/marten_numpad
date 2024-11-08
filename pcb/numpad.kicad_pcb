@@ -548,7 +548,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677693 7.853543)
+			(mid 8.677729 7.853537)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -570,7 +570,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.1348 7.853536)
+			(mid 15.134806 7.853571)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -614,7 +614,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133602 -5.853545)
+			(mid 15.133567 -5.853539)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -1002,7 +1002,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.1348 7.853536)
+			(mid 15.134806 7.853571)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -1013,7 +1013,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133602 -5.853545)
+			(mid 15.133567 -5.853539)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -1024,7 +1024,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677693 7.853543)
+			(mid 8.677729 7.853537)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -14347,7 +14347,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKQGADE010/"
+		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKQGABE010/"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14373,7 +14373,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "SKQGADE010"
+		(property "Manufacturer Part Number" "SKQGABE010"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15194,7 +15194,7 @@
 		)
 		(fp_arc
 			(start 14.78125 -8.000001)
-			(mid 15.134807 -7.853543)
+			(mid 15.134771 -7.853537)
 			(end 15.28125 -7.500001)
 			(stroke
 				(width 0.05)
@@ -15238,7 +15238,7 @@
 		)
 		(fp_arc
 			(start 15.280039 5.499999)
-			(mid 15.133589 5.853531)
+			(mid 15.133581 5.853541)
 			(end 14.780039 5.999999)
 			(stroke
 				(width 0.05)
@@ -15260,7 +15260,7 @@
 		)
 		(fp_arc
 			(start 9.03125 5.999999)
-			(mid 8.677694 5.853541)
+			(mid 8.677729 5.853535)
 			(end 8.53125 5.499999)
 			(stroke
 				(width 0.05)

@@ -4630,7 +4630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKQGADE010/"
+		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKQGABE010/"
 			(at 114.3 135.89 0)
 			(effects
 				(font
@@ -4648,7 +4648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SKQGADE010"
+		(property "Manufacturer Part Number" "SKQGABE010"
 			(at 114.3 135.89 0)
 			(effects
 				(font
