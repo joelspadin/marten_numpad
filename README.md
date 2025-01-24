@@ -8,7 +8,7 @@ It has the following features:
 - Hot swap sockets for MX switches
 - Supports Li-Ion or LiPo batteries up to 68x40x8 mm or 55x44x8 mm.
 - The top-left and top-right keys can be replaced with encoders.
-  - Supports [SKYLOONG keyboard knobs](https://skyloongtech.com/skyloong-keyboard-knobs/) (silicone/ABS cover versions only) or a separate encoder PCB with 3D printed case
+  - Supports [SKYLOONG keyboard knobs](https://skyloongtech.com/skyloong-keyboard-knobs/) (silicone cover versions only) or a separate encoder PCB with 3D printed case
 - Any pair of two keys on the top row can be replaced with a display.
   - This uses a separate display PCB and connects with a ribbon cable.
   - nice!view and SSD1306 OLED display modules are supported.
@@ -56,13 +56,9 @@ The main PCB requires a couple of parts which are not hand solderable, so PCB as
 
 The display and encoder PCBs are hand solderable (though the SMD parts on the encoder are difficult to solder). The encoder PCB also requires modifying the EC11 encoder by clipping its pins short.
 
-Instructions for ordering and assembling the hardware can be found on the wiki.
+Instructions for ordering and assembling the hardware will be found on the wiki, once I finish writing them. (TODO: add a wiki page)
 
-(TODO: add a wiki page)
-
-[PCBWay](https://www.pcbway.com/) provided me a discount on PCB assembly in exchange for sharing pictures of the completed board and talking about my experience ordering from them. I will add details to the wiki for this once I've finished testing the hardware.
-
-(TODO: add a wiki page)
+[PCBWay](https://www.pcbway.com/) provided me a discount on PCB assembly in exchange for [sharing pictures of the completed board and talking about my experience ordering from them](https://github.com/joelspadin/marten_numpad/wiki/PCBWay-Assembly).
 
 ### Custom Peripherals
 
